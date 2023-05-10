@@ -1,0 +1,63 @@
+body {
+    background-image: url("busin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #4285f4;
+    color: white;
+    padding: 20px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+  }
+  
+  #savingsForm {
+    margin-bottom: 20px;
+  }
+  
+  #savingsTable {
+    width: 100%;
+  }
+  
+  #savingsTable th,
+  #savingsTable td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #savingsTable th {
+    background-color: #f2f2f2;
+  }
+  
+  .results h2 {
+    margin-top: 0;
+  }
+  
+  .results table {
+    border-collapse: collapse;
+  }
+  
+  .results button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .results button:hover {
+    background-color: #c82333;
+  }
+  
